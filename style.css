@@ -1,0 +1,268 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: #e9eef2;
+	margin-top: 30px;
+	font-size: .8125rem;
+}
+/*=========================LOGIN/REG======================================*/
+.center-block {
+	display: block;
+	margin: 0 auto;
+}
+
+.form-control:focus{
+	border: solid 1px #f8d650;
+}
+.form-group .error-div{
+	font-size: 10pt;
+	height: 10px;
+}
+.form-group a, .form-group a:visited{
+	color: #666;
+}
+
+.form-control-danger{
+	color: #d94d4d;
+}
+
+#pg-login .has-danger .form-control 
+	,#pg-register .has-danger .form-control{
+	background-color: #f9f2a2;
+	border: solid 1px #f9f2a2;
+}
+#pg-register .container{	
+	margin-top: 10px;
+}
+#pg-register .btn-primary, #pg-login .btn-primary{
+	width: 100%;
+	background-color: #2c2a33;
+	border-color: #2c2a33;
+}
+#pg-register .col-sm-6{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+@media(min-width: 768px){
+	#pg-login .container, #pg-register .container{
+		width: 30%;
+	}
+}
+
+@media(min-width: 576px){
+	#pg-register .col-sm-6{
+		float: left;
+	}
+}
+@media(max-width: 575px){
+	#pg-register .col-sm-6{
+		clear: both;
+		margin-bottom: 1rem;
+		display: block;
+	}
+}
+/*=========================HEADER MENU======================================*/
+#top-menu{
+	text-transform: uppercase;
+	width: 100%;
+	color: #fff;
+}
+#top-menu a, #top-menu a:visited{
+	color: #666;
+}
+#top-menu a:hover{
+	color: #f7547a;
+	text-decoration: underline;
+}
+#top-menu a.active{
+	color: #f7547a;
+	text-decoration: underline;
+}
+.list-unstyled{
+	margin-bottom: 0px;
+}
+/*=========================HOME PAGE======================================*/
+#pg-home{
+	min-height: 400px;
+}
+#pg-home .container{
+	margin-top: 1.2rem;
+}
+#pg-home .category{
+	text-transform: Capitalize;
+	margin-right: 0px;
+	
+}
+#pg-home .category img{
+	width: 40px;
+	
+}
+#pg-home .category a, #pg-home .category a:visited{
+	color: #2c2a33;
+}
+#pg-home .category a:hover, #pg-home .category a:active{
+	color: #f7547a;
+	text-decoration: underline;
+}
+.nav-item .right-side{
+	text-align: right;
+}
+#admin-menu a, #admin-menu a:visited{
+	color: #e9eef2;
+	
+}
+#admin-menu a:hover, #admin-menu a:active{
+	text-decoration: underline;
+	color: #f7547a;
+	
+}
+#admin-menu a.active{
+	color: #f7547a;
+	text-decoration: underline;
+}
+
+/*=========================SIDEBAR======================================*/
+#sidebar{
+	margin-top: 30px;
+	width: 100%;
+	-webkit-transition: margin 2s ease;
+    -moz-transition: margin 2s ease;
+    -o-transition: margin 2s ease;
+    transition: margin 2s ease;
+}
+#sidebar a{
+	color: #2c2a33;
+}
+#sidebar .user-info{
+	background-color: #fff;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+#sidebar .user-info-img{
+	margin: 0 auto;
+	width: 70%;
+}
+#sidebar .user-info-img img{
+	width: 100%;
+}
+#sidebar .card-block{
+	background-color: #fff;
+}
+#sidebar-accordion li.active{
+	border-right: solid 6px #f7547a;
+}
+.sidebar-footer{
+	height: 100px;
+}
+.content{
+	margin-top: 30px;
+	background-color: #fff;
+}
+.content a, .content a:visited{
+	color: #666;
+}
+.nopadding{
+	padding-right: 0px;
+	padding-left: 0px;
+	
+}
+.padding{
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+.odd-row{
+	background-color: #f9f2a2;
+}
+
+
+.acc-logo{
+	background-color: #f8d650;
+}
+#admin-menu {
+	background-color: #2c2a33;
+	color: #fff;
+	width: 100%;
+}
+.pg-admin{
+	/*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+}
+#admin-menu .nav{
+	background-color: #2c2a33;
+	
+}
+
+/*=============================MODAL====================*/
+.modal-content{
+	color: #2c2a33;
+}
+
+.modal-header{
+	text-transform: Capitalize;
+	background-color: #e9eef2;
+}
+.modal-footer{
+	background-color: #e9eef2;
+}
+.modal-body input[type="text"]{
+	border: solid 1px #e9eef2;
+}
+/*====================================FOOTER===============*/
+.footer{
+	width: 100%;
+	background-color: #2c2a33;
+	color: #fff;
+}
+.footer img{
+	width: 5%;
+}
+.footer-content{
+	width: 20%;
+	margin-right: 30px;
+	
+}
+.footer .row{
+	margin-left: 15px; 
+	margin-right: 15px;
+}
+.footer a, .footer a:hover{
+	color: #f7547a;
+}
+.footer-footer{
+	/*border-top: solid 1px #d94d4d;*/
+	background-color: #2e202b;
+	text-align: center;
+	padding-bottom: 0;
+}
+.footer .social-links img{
+	width: 30px;
+}
+.bs-card-color{
+	background-color: #f7f7f9;
+}
+#pg-menu-admin img, #pg-menu-category img{
+	width: 45px;
+}	
+.navbar-toggler-icon{
+	color: #fff;
+}
+.collapse{
+	display: none;
+}
+@media (min-width: 992px){
+	.collapse{
+		display: inherit;
+	}
+	
+}
+@media(max-width: 991px){
+	.container{
+	width: 100%;
+	}
+}
+.content-fluid{
+		height: 100%;
+	-webkit-transition: width 2s ease;
+    -moz-transition: width 2s ease;
+    -o-transition: width 2s ease;
+    transition: width 2s ease;
+}
