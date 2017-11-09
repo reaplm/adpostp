@@ -1,0 +1,30 @@
+/*
+Theme Name: Twenty Seventeen
+Description: Custom styles.
+*/
+/*===============LOGIN===================================*/
+body.login {
+	background-color: #e9eef2;
+}
+.login form {
+	background: #e9eef2;
+}
+.login .button-primary,
+.login .button-primary:hover  {
+	background-color: #2c2a33;
+	border-color: #2c2a33;
+}
+
+.login form .input,
+.login input[type="text"],
+.login form input[type="checkbox"] {
+	background-color: #f9f2a2;
+}
+
+.login #backtoblog a:hover,
+.login #backtoblog a:active,
+.login #nav a:hover,
+.login #nav a:active, 
+#login_error a{
+	color: #f7547a;
+}
